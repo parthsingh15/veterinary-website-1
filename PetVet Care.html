@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Veterinary Website Using HTML, Sass & JavaScript - PetVet Care</title>
+    <!--MINIFIED CSS-->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!--BOXICONS CDN-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+ <!-- Link to Swiper CSS via CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <a href="#"> <img src="./assets/logo.png" alt="logo"></a>
+            </div>
+        <ul id="nav__items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#specialists">Specialists</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#appointment" class="btn">Make Appointment</a></li>
+        </ul>
+
+        <button id="open__nav-btn"><i class="bx bx-menu"></i></button>
+        <button id="close__nav-btn"><i class="bx bx-x"></i></button>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <div class="header__image">
+          <img src="./assets/header.png" alt="Header Image" />
+        </div>
+
+        <div class="header__content">
+          <h1>
+            Complete Health Care Solutions for your
+            <br />
+            <span id="petfriends">Pet Friends </span>🐈
+          </h1>
+          <p>
+            PetVet Care provides compassionate care and cutting-edge solutions for your furry companions. Schedule an appointment today!
+          </p>
+          <a href="#appointment" class="btn">🐾Make Appointment</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>
+        PetVet Care offers a range of services to ensure the well-being of your pets. Discover how we can help:
+      </p>
+
+      <div class="container">
+        <article>
+          <i class="bx bx-donate-heart"></i>
+          <div>
+            <h4>Caring and Qualified Veterinarians</h4>
+            <small
+              >Our team of compassionate veterinarians is dedicated to providing the highest level of care for your pets.</small
+            >
+          </div>
+        </article>
+
+        <article>
+          <i class="bx bx-support"></i>
+          <div>
+            <h4>Online Support</h4>
+            <small
+              >Our online support system ensures that you can reach us anytime, anywhere, for pet-related guidance.</small
+            >
+          </div>
+        </article>
+
+        <article>
+          <i class="bx bx-calendar-heart"></i>
+          <div>
+            <h4>Online Booking</h4>
+            <small
+              >Easily schedule appointments with our convenient online booking system, designed for your convenience.</small
+            >
+          </div>
+        </article>
+
+        <article>
+          <i class="bx bx-infinite"></i>
+          <div>
+            <h4>24/7 Service</h4>
+            <small
+              >We are available around the clock to address any emergencies or concerns you may have about your pet's health.</small
+            >
+          </div>
+        </article>
+
+        <article>
+          <i class="bx bx-first-aid"></i>
+          <div>
+            <h4>Emergency Veterinary Care</h4>
+            <small
+              >Our specialists are trained to provide immediate and effective emergency care for your pets whenever needed.</small
+            >
+          </div>
+        </article>
+
+        <article>
+          <i class="bx bx-home-heart"></i>
+          <div>
+            <h4>Pet Boarding and Daycare</h4>
+            <small
+              >Ensure your pets receive the care they deserve with our comfortable and secure pet boarding and daycare services.</small
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="specialists">
+      <h2>Our Caring and Qualified Specialists</h2>
+      <p>
+        Our specialists are experts in their fields, committed to ensuring the health and happiness of your beloved pets.
+      </p>
+
+      <div class="container">
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist1.jpg" alt="Specialist 1" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Aniket Sharma</h4>
+            <small>Pet Gynocologist</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com/in/aniket-sharma-62bb11270/" target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+
+            <a href="http://telegram.com/" target="_blank"
+              ><i class="bx bxl-telegram"></i
+            ></a>
+
+            <a href="https://www.instagram.com/ianiket.25/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+
+            <a href="http://facebook.com/" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+          </div>
+          <a
+          href=https://api.whatsapp.com/send?phone=whatsappphonenumber&text=your_message
+            class="specialist__whatsapp"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist2.jpeg" alt="Specialist 2" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Naman Chaudhary</h4>
+            <small>Pet Nutrition and Dietary Consultants</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com/in/naman-chaudhary-a6b3a9277/" target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+
+            <a href="http://telegram.com/" target="_blank"
+              ><i class="bx bxl-telegram"></i
+            ></a>
+
+            <a href="https://www.instagram.com/naman_.002/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+
+            <a href="http://facebook.com/" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+          </div>
+          <a
+          href=https://api.whatsapp.com/send?phone=whatsappphonenumber&text=your_message
+            class="specialist__whatsapp"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist3.jpeg" alt="Specialist 3" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Sidhanth Sharma</h4>
+            <small>Emergency and Critical Care Specialists</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com/in/sidhanth-sharma-422670277/" target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+
+            <a href="http://telegram.com/" target="_blank"
+              ><i class="bx bxl-telegram"></i
+            ></a>
+
+            <a href="https://www.instagram.com/sidhanth_sharma/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+
+            <a href="http://facebook.com/" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+          </div>
+          <a
+          href=https://api.whatsapp.com/send?phone=whatsappphonenumber&text=your_message
+            class="specialist__whatsapp"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist4.webp" alt="Specialist 4" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Parth Singh</h4>
+            <small>Orthopedic Veterinary Surgeons</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com/in/parth-singh-0997a8216/" target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+
+            <a href="http://telegram.com/" target="_blank"
+              ><i class="bx bxl-telegram"></i
+            ></a>
+
+            <a href="https://www.instagram.com/parthsingh_155/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+
+            <a href="http://facebook.com/" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+          </div>
+          <a
+          href=https://api.whatsapp.com/send?phone=whatsappphonenumber&text=your_message
+            class="specialist__whatsapp"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist5.webp" alt="Specialist 5" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Arushi Singh</h4>
+            <small>Dental Care Experts for Pets</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="https://www.linkedin.com/in/arushi-singh-b6752027b/" target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+
+            <a href="http://telegram.com/" target="_blank"
+              ><i class="bx bxl-telegram"></i
+            ></a>
+
+            <a href="https://www.instagram.com/arushi.shhhh/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+
+            <a href="http://facebook.com/" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+          </div>
+          <a
+          href=https://api.whatsapp.com/send?phone=whatsappphonenumber&text=your_message
+            class="specialist__whatsapp"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+
+        <article>
+          <div class="specialist__image">
+            <img src="./assets/specialist6.webp" alt="Specialist 6" />
+          </div>
+          <div class="specialist__details">
+            <h4>Dr. Luna Catologist</h4>
+            <small>Behavior Consultant</small>
+          </div>
+          <div class="specialist__socials">
+            <a href="http://linkedin.com/" target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+
+            <a href="http://telegram.com/" target="_blank"
+              ><i class="bx bxl-telegram"></i
+            ></a>
+
+            <a href="http://instagram.com/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+
+            <a href="http://facebook.com/" target="_blank"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+          </div>
+          <a
+          href=https://api.whatsapp.com/send?phone=whatsappphonenumber&text=your_message
+            class="specialist__whatsapp"
+            target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="swiper mySwiper">
+        <h2>Pawsome Reviews from Pet Owners</h2>
+        <p>Discover what pet owners are saying about their experience with PetVet Care:</p>
+        <div class="swiper-wrapper">
+
+           <article class="swiper-slide">
+            <p>PetVet Care has been a lifesaver for my furry friends. The veterinarians are not only highly skilled but also truly compassionate. I trust them with the care of my pets.</p>
+            <div class="petowner">
+                <div class="avatar">
+                    <img src="assets/petowner1.jpeg" alt="Pet Owner 1">
+                </div>
+                <div class="patient__info">
+                    <h5>Oliver Barkington</h5>
+                    <small>Human Sidekick</small>
+                </div>
+            </div>
+           </article>
+
+           <article class="swiper-slide">
+            <p>I appreciate the convenience of online booking and the 24/7 emergency service. PetVet Care provides comprehensive care for pets, and the specialists are top-notch!</p>
+            <div class="petowner">
+                <div class="avatar">
+                    <img src="assets/petowner2.jpeg" alt="Pet Owner 2">
+                </div>
+                <div class="patient__info">
+                    <h5>Emma Purrington</h5>
+                    <small>Pawtner in Crime</small>
+                </div>
+            </div>
+           </article>
+
+           <article class="swiper-slide">
+            <p>The pet boarding and daycare services are excellent. My pets always come back happy and healthy. The staff at PetVet Care truly cares about the well-being of animals.</p>
+            <div class="petowner">
+                <div class="avatar">
+                    <img src="assets/petowner3.jpeg" alt="Pet Owner 3">
+                </div>
+                <div class="patient__info">
+                    <h5>Lucas Tailsworth</h5>
+                    <small>Snuggle Partner</small>
+                </div>
+            </div>
+           </article>
+
+           <article class="swiper-slide">
+            <p>PetVet Care is a paradise for pets. The specialists understand the unique needs of each animal, providing tailored care. My pet loves every visit!</p>
+            <div class="petowner">
+                <div class="avatar">
+                    <img src="assets/petowner4.webp" alt="Pet Owner 4">
+                </div>
+                <div class="patient__info">
+                    <h5>Sophia Snugglepaws</h5>
+                    <small>Playtime Planner</small>
+                </div>
+            </div>
+           </article>
+
+           <article class="swiper-slide">
+            <p>My fluffy companion receives the best care at PetVet Care. The team goes above and beyond to ensure her well-being. Grateful for the excellent service!</p>
+            <div class="petowner">
+                <div class="avatar">
+                    <img src="assets/petowner5.jpeg" alt="Pet Owner 5">
+                </div>
+                <div class="patient__info">
+                    <h5>Ava Fluffington</h5>
+                    <small>Human Sidekick</small>
+                </div>
+            </div>
+           </article>
+           
+           <article class="swiper-slide">
+            <p>PetVet Care's emergency care specialists saved the day! Their quick response and expertise made all the difference. Forever thankful!</p>
+            <div class="petowner">
+                <div class="avatar">
+                    <img src="assets/petowner6.jpeg" alt="Pet Owner 6">
+                </div>
+                <div class="patient__info">
+                    <h5>Jake Wiggletail</h5>
+                    <small>Human Sidekick</small>
+                </div>
+            </div>
+           </article>
+
+           <article class="swiper-slide">
+            <p>My pet enjoys her time at PetVet Care's pet boarding. The caring staff and secure environment make it her second home. Trustworthy and highly recommended!</p>
+            <div class="petowner">
+                <div class="avatar">
+                    <img src="assets/petowner7.jpg" alt="Pet Owner 7">
+                </div>
+                <div class="patient__info">
+                    <h5>Daisy Snugglepaws</h5>
+                    <small>Human Sidekick</small>
+                </div>
+            </div>
+           </article>
+
+           <article class="swiper-slide">
+            <p>We received expert guidance on nutrition from PetVet Care specialists. His health improved, and he's now a happy and energetic furry family member. Thank you!</p>
+            <div class="petowner">
+                <div class="avatar">
+                    <img src="assets/petowner8.jpeg" alt="Pet Owner 8">
+                </div>
+                <div class="patient__info">
+                    <h5>Jackson Furrykins</h5>
+                    <small>Human Sidekick</small>
+                </div>
+            </div>
+           </article>
+    
+        </div>
+        
+        <div class="swiper-pagination"></div>
+       
+    </section>
+
+<section id="appointment">
+  <div class="container">
+    <div class="info">
+      <h2>Get an Appointment</h2>
+      <p>Book an appointment with PetVet Care to ensure the best care for your pets.</p>
+
+      <article>
+        <div class="info__icon">
+          <i class='bx bx-calendar-star'></i>
+        </div>
+        <div>
+        <h4>Meet Our Expert Professionals</h4>
+        <small>Our skilled professionals are here to provide personalized care for your pets.Get expert advice and guidance from our veterinarians to ensure the well-being of your pets.</small>
+      </div>
+      </article>
+
+
+      <article>
+        <div class="info__icon">
+          <i class='bx bxs-analyse'></i>
+        </div>
+        <div>
+        <h4>Experience Cutting-Edge Technology</h4>
+        <small>PetVet Care, we understand the importance of staying at the forefront of veterinary care. Our commitment to excellence is reflected in the use of advanced technologies that enhance the quality of care for your pets.</small>
+      </div>
+      </article>
+
+      <article>
+        <div class="info__icon">
+          <i class='bx bx-paste'></i>
+        </div>
+        <div>
+        <h4>Pet Wellness Programs</h4>
+        <small>Ensuring the long and healthy life of your pets is our priority. PetVet Care offers comprehensive pet wellness programs that include preventive care, nutritional guidance, and regular check-ups.</small>
+      </div>
+      </article>
+
+      <article>
+        <div class="info__icon">
+          <i class='bx bxs-clinic'></i>
+        </div>
+        <div>
+        <h4>Innovative Treatment Approaches</h4>
+        <small>Every pet is unique, and PetVet Care embraces innovative treatment approaches to address their individual needs. Our team employs state-of-the-art methods and stays informed about the latest advancements in veterinary medicine.</small>
+      </div>
+      </article>
+         </div>
+     
+         <form action="https://formspree.io/f/xvoepqdn" method="POST">
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Your Name" name="Your Name" id="name" required>
+          </div>
+    
+          <div class="form__group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" pattern="[0-9]+" required>
+          </div>
+                    
+    
+          <div class="form__group">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+        
+    
+          <div class="form__group">
+            <label for="doctor">Department & Preferred Specialist</label>
+            <select id="department" name="department" required>
+              <option value="Dr. Aniket Sharma">Dr. Aniket Sharma - Pet Gynocologist</option>
+              <option value="Dr.Naman Chaudhary">Dr. Naman Chaudhary - Pet Nutrition and Dietary Consultants</option>
+              <option value="Dr. Sidhanth Sharma">Dr. Sidhanth Sharma - Emergency and Critical Care Specialists</option>
+              <option value="Dr. Parth Singh">Dr. Parth Singh - Orthopedic Veterinary Surgeons</option>
+              <option value="Dr. Arushi Singh">Dr. Arushi Singh - Dental Care Experts for Pets</option>
+              <option value="Dr. Luna Catologist">Dr. Luna Catologist - Behavior Consultant</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+    
+          <div class="form__group">
+            <label for="message">Additional Message</label>
+            <textarea id="message" name="message" rows="6"></textarea>
+          </div>
+    
+          <button type="submit">Submit</button>
+        </form>
+  
+</section>
+
+<footer>
+<div class="container">
+
+  <article>
+    <a href="#" class="logo"><img src="./assets/logo-short.png" alt="Logo"></a>
+  <p>Discover the compassionate care for your pets at PetVet Care. Our dedicated team is committed to providing exceptional veterinary services and ensuring the well-being of your furry friends.</p>
+<div>
+  <i class='bx bx-phone'></i>
+  <small>+91 8053089123</small>
+</div>
+<div>
+  <i class='bx bx-mail-send' ></i>
+  <small>sid.kumar2345@gmail.com</small>
+</div>
+
+</article>
+
+<article>
+  <h3>Support</h3>
+  <a href="#">+91 8053089123</a>
+  <a href="#">+91 8302068228</a>
+  <a href="#">Sid.kumar2345@gmail.com</a>
+  <a href="#">Sidh.kumar6789@gmail.com</a>
+</article>
+
+
+<article>
+  <h3>Permalinks</h3>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#specialists">Specialists</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#appointment" class="btn">Get Appointment</a>
+</article>
+
+<article>
+  <h3>Contact Us</h3>
+<div class="footer__socials">
+  <a href="https://www.linkedin.com/in/sidhanth-sharma-422670277/"><i class="bx bxl-linkedin"></i></a>
+  <a href="https://x.com/Sidhant57051880"><i class="bx bxl-twitter"></i></a>
+  <a href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a>
+  <a href="https://www.instagram.com/sidhanth_sharma/"><i class="bx bxl-instagram"></i></a>
+</div>
+</article>
+
+
+</div>
+
+<div class="copyright">
+  <small> &copy; Designed and developed by <a href="https://www.linkedin.com/in/sidhanth-sharma-422670277/">Sidhanth Sharma</a></small>
+</div>
+</footer>
+
+    <!-- Link to Swiper JS via CDN -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./main.js" async></script>
+    
+  </body>
+</html>
